@@ -12,6 +12,8 @@ const Main = (props) => {
 
   const URL = "http://localhost:4000/people/"
 
+  // const URL ="https://heroku location of app"
+
   const getPeople = async () => {
     const response = await fetch(URL)
     const data = await response.json();
