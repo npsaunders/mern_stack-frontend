@@ -10,9 +10,9 @@ const Main = (props) => {
 
   const [people, setPeople] = useState(null)
 
-  const URL = "http://localhost:4000/people/"
+  // const URL = "http://localhost:4000/people/"
 
-  // const URL ="https://heroku location of app"
+  const URL = "https://mern-stack-titans.herokuapp.com/people/"
 
   const getPeople = async () => {
     const response = await fetch(URL)
