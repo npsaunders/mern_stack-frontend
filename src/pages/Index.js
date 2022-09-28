@@ -59,7 +59,7 @@ const Index = (props) => {
           onChange={handleChange}
         />
         <input
-          type="test"
+          type="text"
           value={newForm.image}
           name="image"
           placeholder="image URL"
